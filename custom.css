@@ -103,7 +103,10 @@ html, body {
 #announcement .jumbotron p {
     padding: 0 1rem;
 }
-
+#guide{
+    align-items: center;
+    justify-content: space-between;
+}
 #guide .jumbotron h1{
     padding: 4rem;
     font-size: 2em;
@@ -117,6 +120,10 @@ html, body {
     margin-bottom: 0;
 }
 #guide .jumbotron img{
+    width: auto;
+    margin-top: 0.8rem;
+}
+#guide .jumbotron .mediaplayer{
     width: 90%;
     margin-top: 0.8rem;
 }
@@ -180,4 +187,9 @@ html, body {
     #header {
         height: 850px;
     }  
+    /* #guide .howtopicture{
+       
+       
+
+    } */
 }
