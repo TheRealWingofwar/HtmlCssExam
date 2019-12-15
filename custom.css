@@ -240,6 +240,312 @@ html, body {
     right: 0;
     z-index: -1;
 }
+#testimonials{
+    border-bottom: 2px solid var(--mygray);
+    background-color: #fff;
+}
+#testimonials .jumbotron{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#testimonials h6{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#testimonials .testimoni-role{
+    text-align: left;
+}
+#testimonials .testimoni-name{
+    text-align: left;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+#testimonials-content{
+    display: flex;
+}
+#testimonials h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.testimonials-right{
+    display: none;
+}
+.testimonials-content .testimonials-left .button-arrow{
+    text-align: right;
+}
+
+#news {
+    border-bottom: 1px solid var(--myblue) !important;
+}
+
+#news h1{
+    text-align: center;
+}
+
+#news .container {
+    text-align: center;
+}
+
+.news-left{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.news-center{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.news-right{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.left-img{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.center-img{
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.right-img {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+#choose-your-plan {
+    display: flex;
+    flex-direction: column;
+}
+
+#choose-content {
+    margin: auto;
+    align-items: center
+}
+
+.priceplan {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#priceplan-advanced {
+    padding: 0rem 0;
+}
+
+
+.choice {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.choice1 {
+    border: 2px solid var(--myblue);
+    color: var(--myblue);
+    background: #fff;
+    text-align: center;
+}
+
+.advanced-plan {
+    border: 2px solid blue;
+    color: #fff;
+    background:var(--myblue);
+    text-align: center;
+}
+
+.dollar {
+    font-size: 1.5rem;
+
+}
+
+.free1 {
+    margin-left: -4px;
+    font-size: 4rem;
+}
+
+.dollar, .free1 {
+    font-weight:bold ;
+}
+
+.lake-brett1 {
+    border-bottom: 1px solid var(--myblue);
+    font-size: 2rem;
+}
+
+.lake-brett1-white {
+    border-bottom: 1px solid white;
+    font-size: 2rem;
+}
+
+.list-content {
+    padding: 4rem;
+
+}
+
+.choice1 .btn{
+    margin-bottom: 3rem;
+    background: var(--myblue);
+    color: white;
+}
+
+.advanced-free {
+    margin-left: -4px;
+    font-size: 4rem;
+}
+
+.advanced-free, .advanced-dollar {
+    font-weight:bold ;
+}
+
+.advanced-button {
+    margin-bottom: 1.5rem;
+}
+
+.advanced-plan h4 {
+    margin-top: 4rem;
+}
+
+.btn {
+    background: white;
+    color: var(--myblue);
+}
+
+.advanced-plan {
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+#map {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: url(images/map2.png) no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+#map .contact-box {
+    background: #fff;
+    opacity: 75%;
+    padding: 2rem;
+    margin: 1.5rem;
+
+}
+
+#map .contact-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#map .contact-box ul li i {
+    margin-right: 2rem;
+}
+
+#footer, .btn-myblue {
+    background-color: 20rem;
+}
+
+.container-bottom {
+    display: flex;
+    width: 100%;
+}
+
+.wireland {
+    margin: 2rem auto 0 auto;
+    width: 8rem;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top:1rem ;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+
+.form-container {
+    margin: auto;
+    display: inline-block;
+    background: white;
+    padding: 0.5rem;
+}
+
+.form-container input {
+    outline: 0;
+    border: 0;
+}
+
+#email {
+    border: none;
+    outline: none;
+}
+
+.button-blue {
+    background: var(--myblue);
+    color: white;
+}
+
+.button-blue {
+    border: none;
+}
+
+.long-button {
+    display: flex;
+    background: white;
+    padding: 0.3rem;
+    border: 0rem;
+    width: 50%;
+}
+
+.social-icons {
+    display: flex;
+
+}
+
+.social-icons-center {
+    margin: auto;
+}
+
+.social-icons-center i {
+    margin: 1rem 0.5rem;
+}
+
+#footer .container {
+
+    text-align: center;
+
+
+
+}
+
+.footer-text {
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    margin: auto;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+}
+
+#copyright span {
+    font-size: 0.5rem;
+}
+.darkblue {
+    background-color: rgb(40, 103, 161);
+    border-color:   rgb(40, 103, 161);
+}
 
 @media(min-width: 576px) {
     #header {
@@ -273,6 +579,23 @@ html, body {
 
     .feature .feature-text{
         text-align: left;
+    }
+
+    .news-flex {
+        margin: auto;
+    }
+
+    #choose-content {
+        display: flex;
+    }
+
+    .footer-text {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+
+    #copyright span {
+        font-size: 0.7rem;
     }
 }
 
@@ -334,6 +657,62 @@ html, body {
     .feature-text h3{
         padding: 0.5em;
     }
+
+    .testimonial-flex{
+        display: flex;
+    }
+    .testimonials-left{
+        padding: 0 4rem;
+    }
+    .testimonials-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .testimonials-right{
+        display: block;
+    }
+
+    .news-flex {
+        display: flex;
+        margin: auto;
+    }
+
+    .left-img {
+        margin-bottom: 0.5rem;
+        font-size: 4rem;
+    
+    }
+    
+    .center-img {
+        margin-bottom: 0.5rem;
+        font-size: 4.5rem;
+    
+    }
+    
+    .right-img {
+        margin-bottom: 0.5rem;
+        font-size: 4rem;
+        
+    }
+
+    #choose-your-plan {
+        display: flex;
+    }
+
+    #map { 
+        grid-template-columns: 1fr 1fr;
+        margin-top: 4rem;
+               
+    }
+
+    #map .contact-box {
+        grid-column: 2;
+        margin-right: 3rem;
+    }
+
+    #copyright span {
+        font-size: 0.7rem;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -377,5 +756,24 @@ html, body {
         margin-left: 19rem;
     }
 
+    #testimonials h1{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
 
+    .news-flex {
+        margin: auto;
+    }
+
+    #choose-your-plan {
+        display: flex;
+    }
+
+    #choose-content {
+        margin-bottom: 10rem;
+    }
+
+    #map .contact-box {
+        margin-right: 20rem;
+    }
 }
