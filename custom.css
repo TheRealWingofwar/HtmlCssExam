@@ -103,10 +103,13 @@ html, body {
 #announcement .jumbotron p {
     padding: 0 1rem;
 }
+
 #guide{
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid var(--mygray);  
 }
+
 #guide .jumbotron h1{
     padding: 4rem;
     font-size: 2em;
@@ -114,19 +117,87 @@ html, body {
     font-weight: 700;
 }
 
+#guide .jumbotron h2{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+}
+
+#guide .jumbotron p{
+    font-weight: 120;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+}
+
 #guide .jumbotron{
     background: transparent;
     text-align: center;
     margin-bottom: 0;
 }
+
 #guide .jumbotron img{
     width: auto;
     margin-top: 0.8rem;
 }
+
 #guide .jumbotron .mediaplayer{
     width: 90%;
     margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
 }
+
+#guide .howtopicture{
+    width: 35%;
+    margin-top: 0.5rem;
+}
+
+#benefits{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--mygray);
+}
+
+#benefits h1{
+    padding: 4rem;
+    font-weight: 700;
+}
+
+.benefitsbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.leftbox{
+ text-align: center;
+ font-weight: bold;
+}
+
+.centerbox{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.centerbox img{
+    width: 50%;
+}
+
+.rightbox{
+    text-align: center;
+}
+
+
+
 
 @media(min-width: 576px) {
     #header {
@@ -187,9 +258,4 @@ html, body {
     #header {
         height: 850px;
     }  
-    /* #guide .howtopicture{
-       
-       
-
-    } */
 }
