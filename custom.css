@@ -196,13 +196,55 @@ html, body {
     text-align: center;
 }
 
+#features{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid var(--mygray);
+}
 
+#features h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#features-content{
+    display: flex;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding: 0 2rem;
+}
 
+.feature-image{
+    display: none;
+    display: grid;
+}
+.feature-text{
+    display: flex;
+}
+.content-left{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-right{
+    display: none;
+    position: relative;
+}
+.content-right img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
 
 @media(min-width: 576px) {
     #header {
         height: 480px;
-    }    
+    }  
 }
 
 
@@ -213,6 +255,24 @@ html, body {
 
     #header {
         height: 600px;
+    }
+
+    #feature-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .feature{
+        display: flex;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature .feature-image{
+        margin: 0 2rem;
+    }
+
+    .feature .feature-text{
+        text-align: left;
     }
 }
 
@@ -252,10 +312,70 @@ html, body {
         text-align: left;
         margin-top: 0.3rem;
     }
+
+
+    #features{
+        grid-template-columns: 2fr 1fr;
+    }
+    .content-left{
+        grid-template-columns: 1fr 1fr;
+    }
+    .feature{
+        padding: 0 0 0 2rem;
+    }
+    .content-right{
+        grid-column: 2;
+        display: block;
+    }
+    .feature-image{
+        text-align: left;
+        margin-left: 8rem;
+    }
+    .feature-text h3{
+        padding: 0.5em;
+    }
 }
 
 @media(min-width: 1200px) {
     #header {
         height: 850px;
-    }  
+    } 
+    /* benefits 
+    
+    
+    */
+    
+    #features{
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #features h1{
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+    }
+    .feature-text h3{
+        padding: 0.5em;
+    }
+    
+    .content-right{
+        display: block;
+        background: url(images/featureslaptopimage.png) no-repeat;
+        background-size: cover;
+        background-position: top left;
+        width: 100%;
+    }
+
+    .content-right img{
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .feature-image{
+        text-align: left;
+        margin-left: 19rem;
+    }
+
+
 }
